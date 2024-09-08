@@ -20,9 +20,9 @@ const Overview = () => {
         <div className="mt-10 animate-on-view hid">
             <div className="flex justify-center flex-wrap xs:justify-center">
                 {
-                    services.map((service)=>{
+                    services.map((service,index)=>{
                         return(
-                            <div className=" anima-card ml-10 mt-10 ">
+                            <div className=" anima-card ml-10 mt-10 " key={index}>
                                 <div className="inner-card flex  flex-col justify-center">
                                     
                                     <p>{service}</p>

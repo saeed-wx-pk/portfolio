@@ -52,15 +52,15 @@ const Projects = () => {
                                                 project.tools.map((tool,index)=>{
                                                     if(index === 0){
                                                         return(
-                                                            <p className="text-[12px] mr-5 text-red-600"> # {tool}</p> 
+                                                            <p className="text-[12px] mr-5 text-red-600" key={index}> # {tool}</p> 
                                                         )
                                                     }else if(index === 1){
                                                         return(
-                                                            <p className="text-[12px] mr-5 text-blue-600"> # {tool}</p> 
+                                                            <p className="text-[12px] mr-5 text-blue-600" key={index}> # {tool}</p> 
                                                         )
                                                     }else if(index === 2){
                                                         return(
-                                                            <p className="text-[12px] mr-5 text-green-600"> # {tool}</p> 
+                                                            <p className="text-[12px] mr-5 text-green-600" key={index}> # {tool}</p> 
                                                         )
                                                     }
                                                 } )

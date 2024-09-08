@@ -20,10 +20,10 @@ const Contact = () => {
 					</p>
 					<div className=" ">
 						{
-							socialMedia.map((social)=>{
+							socialMedia.map((social,index)=>{
 								if(social.title === 'whatsapp'){
 									return(
-										<div className=" flex mt-10 ml-5 xs:ml-10 ">
+										<div className=" flex mt-10 ml-5 xs:ml-10 " key={index}>
 											<Image
 												src={social.iconUrl}
 												alt='whatsapp'
@@ -37,7 +37,7 @@ const Contact = () => {
 								}
 								if(social.title === "mail"){
 									return(
-										<div className=" flex mt-10 ml-5 xs:ml-10">
+										<div className=" flex mt-10 ml-5 xs:ml-10" key={index}>
 											<Image
 												src={social.iconUrl}
 												alt='mail'
@@ -53,14 +53,14 @@ const Contact = () => {
 						}
 						<div className=" flex mt-10 ml-10">
 							{
-								socialMedia.map((social)=>{
+								socialMedia.map((social,index)=>{
 									if(social.title === 'mail'){
 										return(
 											''
 										)
 									}else{
 										return(
-											<a href={social.url} className="cursor-pointer mr-5">
+											<a href={social.url} className="cursor-pointer mr-5" key={index}>
 												<Image
 													src={social.iconUrl}
 													alt={social.title}

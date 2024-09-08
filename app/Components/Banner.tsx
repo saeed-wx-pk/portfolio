@@ -18,10 +18,10 @@ const Banner = () => {
               <p className='hi-tag'>Hi I'm</p>
               <div className="icons">
                 {
-                  socialMedia.map((social)=>{
+                  socialMedia.map((social,index)=>{
                     if(social.title === 'instagram'){
                       return(
-                        <div className="icon ">
+                        <div className="icon " key={index}>
                           <a href={social.url}>
                             <Image
                               src={social.iconUrl}
@@ -36,7 +36,7 @@ const Banner = () => {
                     }
                     if(social.title === 'x'){
                       return(
-                        <div className="icon ">
+                        <div className="icon " key={index}>
                           <a href={social.url}>
                             <Image
                               src={social.iconUrl}
@@ -64,10 +64,10 @@ const Banner = () => {
                 
                 <div className="icon-bot flex">
                 {
-                  socialMedia.map((social)=>{
+                  socialMedia.map((social,index)=>{
                     if(social.title === 'instagram'){
                       return(
-                        <div className="icon ">
+                        <div className="icon " key={index}>
                           <a href={social.url}>
                             <Image
                               src={social.iconUrl}
@@ -82,7 +82,7 @@ const Banner = () => {
                     }
                     if(social.title === 'x'){
                       return(
-                        <div className="icon ">
+                        <div className="icon " key={index}>
                           <a href={social.url}>
                             <Image
                               src={social.iconUrl}

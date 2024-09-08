@@ -15,14 +15,14 @@ const Footer = () => {
 				</div>
 				<div className="flex mt-4 sm:justify-center sm:mt-0">
 					{
-						socialMedia.map((social)=>{
+						socialMedia.map((social,index)=>{
 							if(social.title === 'mail'){
 								return(
 									''
 								)
 							}else{
 								return(
-									<a href={social.url} className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+									<a href={social.url} className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5" key={index}>
 										<Image
 											src={social.iconUrl}
 											alt={social.title}

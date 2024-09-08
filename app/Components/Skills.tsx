@@ -14,10 +14,10 @@ const Skills = () => {
                 <div className="container">
                     <div className="grid grid-cols-2 xs:grid-cols-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-4">
                         {
-                            skills.map((skill)=>{
+                            skills.map((skill,index)=>{
                                 
                                 return (
-                                    <div className="flex flex-col items-center justify-center">
+                                    <div className="flex flex-col items-center justify-center" key={index}>
                                         <CircleBar
                                             percent = {skill.percent} 
                                             title={skill.title}
