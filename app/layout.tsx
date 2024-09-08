@@ -5,7 +5,7 @@ import ClientSideScripts from "./Components/ClientSideScripts";
 import type { Metadata } from 'next';
 import Head from "next/head";
 
-const baseUrl = "https://your-portfolio-url.com";
+const baseUrl = "https://saeed-pk.vercel.app/";
 
 export const metadata: Metadata = {
   title: "Saeed PK | Full-Stack Developer & Web Solutions Expert",
