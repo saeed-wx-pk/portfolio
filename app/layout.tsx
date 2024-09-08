@@ -41,11 +41,9 @@ export const metadata: Metadata = {
   publisher: "Saeed PK Portfolio",
   
   verification: {
-    google: "google-site-verification-code",
-    yahoo: "yahoo-site-verification-code",
+    google: "ndSkfICDh5xHVexvHoasFBYveNdPXVklcBqoVKLK6ow",
     other:{
-      bing: "bing-site-verification-code",
-
+      msvalidate: "A4BA91E04E5D8B7E4AF0763406BB16BA", // Microsoft verification code
     }
   },
   category: "Web Development, Full-Stack Development",

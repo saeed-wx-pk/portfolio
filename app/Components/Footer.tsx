@@ -5,7 +5,7 @@ import LiveTime from './LiveTime'
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
 				<div className="sm:text-center text-gray-400 text-sm">
@@ -22,7 +22,7 @@ const Footer = () => {
 								)
 							}else{
 								return(
-									<a href={social.url} className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5" key={index}>
+									<a href={social.url} className=" ms-5" key={index}>
 										<Image
 											src={social.iconUrl}
 											alt={social.title}
