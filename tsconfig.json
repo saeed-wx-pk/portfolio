@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Components/Navbar.tsx", "app/layout.tsx", "app/Components/Banner.tsx", "app/pages/api/proxy.js"],
   "exclude": ["node_modules"]
 }
