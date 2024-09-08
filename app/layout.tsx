@@ -41,10 +41,11 @@ export const metadata: Metadata = {
   publisher: "Saeed PK Portfolio",
   
   verification: {
-    google: "ndSkfICDh5xHVexvHoasFBYveNdPXVklcBqoVKLK6ow",
-    other:{
-      msvalidate: "A4BA91E04E5D8B7E4AF0763406BB16BA", // Microsoft verification code
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    other: {
+      ["msvalidate.01"]: process.env.MSVALIDATE_SITE_VERIFICATION || '',  // Provide a fallback
     }
+    
   },
   category: "Web Development, Full-Stack Development",
   classification: "Professional Portfolio, Personal Branding",
