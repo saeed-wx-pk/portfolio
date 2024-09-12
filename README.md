@@ -7,9 +7,7 @@ Welcome to the repository for Saeed PK's portfolio website! This site showcases 
 This portfolio website demonstrates my skills in building dynamic and responsive web applications using cutting-edge technologies. It includes:
 
 - **Next.js** for server-side rendering and static site generation
-- **MERN Stack** (MongoDB, Express.js, Node.js) for backend development
 - **React.js** for building interactive user interfaces
-- **Framer Motion** for smooth animations
 - **Tailwind CSS** for styling
 
 ## 🚀 **Getting Started**
