@@ -23,7 +23,7 @@ const about:string = "I’m Saeed PK, a passionate web developer focused on crea
 const skills:skill[] = [
     {
         title:"JavaScript",
-        percent:100
+        percent:80
     },
     {
         title:"TypeScript",
@@ -31,19 +31,19 @@ const skills:skill[] = [
     },
     {
         title:"Next Js",
-        percent:70
+        percent:75
     },
     {
         title:"React js",
-        percent:90
+        percent:85
     },
     {
         title:"MongoDb",
-        percent:90
+        percent:70
     },
     {
         title:"TailwindCSS",
-        percent:90
+        percent:85
     },
     {
         title:"GIT",
@@ -51,23 +51,23 @@ const skills:skill[] = [
     },
     {
         title:"Express js",
-        percent:100
+        percent:90
     },
     {
         title:"Handlebars",
-        percent:100
+        percent:95
     },
     {
         title:"HTML",
-        percent:100
+        percent:95
     },
     {
         title:"CSS",
-        percent:100
+        percent:85
     },
     {
         title:"Bootstrap",
-        percent:100
+        percent:90
     },
     
 ];
@@ -120,7 +120,7 @@ const projects:projects[] = [
     },
     {
         image:'/images/portfolio.png',
-        // github:'github.com/saeed-wx-pk/',
+        github:'github.com/saeed-wx-pk/portfolio',
         title:'Portfolio Website',
         description:'This is my personal portfolio website, built to showcase my skills and projects. Designed with Next.js and featuring a modern, responsive layout, it highlights my expertise in web development and provides an intuitive user experience.',
         tools:[
@@ -137,7 +137,7 @@ const contactIntro:string = "I’d love to hear from you! Whether you have a pro
 const socialMedia:socialLink[] = [
     {
         title:"instagram",
-        url:"https://www.instagram.com/saeed_wx_pk/?utm_source=qr&r=nametag",
+        url:"https://www.instagram.com/saeedpk.in",
         iconUrl:"/icons/instagram.svg"
     },
     {
